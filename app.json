@@ -1,0 +1,25 @@
+{
+    "id": "com.athom.hello",
+    "version": "1.0.0",
+    "compatibility": ">=1.2.3",
+    "name": {
+        "en": "Hello World!",
+        "nl": "Hallo wereld!"
+    },
+    "description": {
+        "en": "This is an example app for Homey",
+        "nl": "Dit is een voorbeeld app voor Homey"
+    },
+    "permissions": [
+        "homey:manager:speech-output"
+    ],
+    "speech": [
+        {
+            "id": "hello",
+            "importance": 0.6,
+            "synonyms": {
+                "en": [ "hello", "hi", "hey" ]
+            }
+        }
+    ]
+}
